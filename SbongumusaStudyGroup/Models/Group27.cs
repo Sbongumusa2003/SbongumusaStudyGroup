@@ -16,6 +16,7 @@ namespace SbongumusaStudyGroup.Models
 		[DisplayName("SURNAME")]
 		public string Surname { get; set; }
 		[DisplayName("EMAIL ADDRESS")]
+		[Required(ErrorMessage = "Student's Email is Required")]
 		public string Email { get; set; }
 	}
 }
